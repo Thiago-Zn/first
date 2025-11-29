@@ -1,0 +1,94 @@
+@theme {
+    /* ========================================
+     SALDO CERTO - DESIGN TOKENS
+     Fintech moderna, minimalista e premium
+     ======================================== */
+
+    /* === COLORS === */
+
+    /* Base */
+    --color-background: #ffffff;
+    --color-foreground: #1a1a1a;
+
+    /* Card */
+    --color-card: #ffffff;
+    --color-card-foreground: #1a1a1a;
+
+    /* Muted (backgrounds secundários) */
+    --color-muted: #f8f9fa;
+    --color-muted-foreground: #6b7280;
+
+    /* Border */
+    --color-border: #e5e7eb;
+    --color-input: #e5e7eb;
+
+    /* Primary (Amarelo suave - destaque principal) */
+    --color-primary: #fef3c7;
+    --color-primary-foreground: #92400e;
+
+    /* Secondary (Cinza claro) */
+    --color-secondary: #f3f4f6;
+    --color-secondary-foreground: #374151;
+
+    /* Accent (Roxo suave) */
+    --color-accent: #e9d5ff;
+    --color-accent-foreground: #6b21a8;
+
+    /* Destructive (Vermelho suave) */
+    --color-destructive: #fee2e2;
+    --color-destructive-foreground: #991b1b;
+
+    /* Success (Verde menta) */
+    --color-success: #d1fae5;
+    --color-success-foreground: #065f46;
+
+    /* Warning (Laranja suave) */
+    --color-warning: #fed7aa;
+    --color-warning-foreground: #9a3412;
+
+    /* Info (Azul claro) */
+    --color-info: #dbeafe;
+    --color-info-foreground: #1e40af;
+
+    /* Pastel Colors (para badges e categorias) */
+    --color-pastel-yellow: #fef3c7;
+    --color-pastel-green: #d1fae5;
+    --color-pastel-blue: #dbeafe;
+    --color-pastel-purple: #e9d5ff;
+    --color-pastel-pink: #fce7f3;
+    --color-pastel-orange: #fed7aa;
+
+    /* Ring (focus) */
+    --color-ring: #e5e7eb;
+
+    /* === RADIUS === */
+    --radius-sm: 0.5rem;
+    /* 8px */
+    --radius-md: 0.75rem;
+    /* 12px */
+    --radius-lg: 1rem;
+    /* 16px */
+    --radius-xl: 1.5rem;
+    /* 24px */
+    --radius-full: 9999px;
+
+    /* === SHADOWS === */
+    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.03);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+
+    /* === SPACING === */
+    --spacing-xs: 0.5rem;
+    /* 8px */
+    --spacing-sm: 0.75rem;
+    /* 12px */
+    --spacing-md: 1rem;
+    /* 16px */
+    --spacing-lg: 1.5rem;
+    /* 24px */
+    --spacing-xl: 2rem;
+    /* 32px */
+    --spacing-2xl: 3rem;
+    /* 48px */
+}
