@@ -22,9 +22,9 @@
     --color-border: #e5e7eb;
     --color-input: #e5e7eb;
 
-    /* Primary (Amarelo suave - destaque principal) */
-    --color-primary: #fef3c7;
-    --color-primary-foreground: #92400e;
+    /* Primary (Amarelo vibrante - destaque principal) */
+    --color-primary: #facc15;
+    --color-primary-foreground: #1a1a1a;
 
     /* Secondary (Cinza claro) */
     --color-secondary: #f3f4f6;
@@ -44,19 +44,19 @@
 
     /* Warning (Laranja suave) */
     --color-warning: #fed7aa;
-    --color-warning-foreground: #9a3412;
+    --color-warning-foreground: #ea580c;
 
     /* Info (Azul claro) */
     --color-info: #dbeafe;
     --color-info-foreground: #1e40af;
 
     /* Pastel Colors (para badges e categorias) */
-    --color-pastel-yellow: #fef3c7;
+    --color-pastel-yellow: #fef9c3;
     --color-pastel-green: #d1fae5;
     --color-pastel-blue: #dbeafe;
     --color-pastel-purple: #e9d5ff;
     --color-pastel-pink: #fce7f3;
-    --color-pastel-orange: #fed7aa;
+    --color-pastel-orange: #ffedd5;
 
     /* Ring (focus) */
     --color-ring: #e5e7eb;
