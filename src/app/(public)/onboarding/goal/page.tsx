@@ -53,7 +53,7 @@ export default function OnboardingGoalPage() {
                             </div>
                             <div className="flex-1">
                                 <h3 className="text-lg font-semibold mb-1 text-foreground">{goal.title}</h3>
-                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                <p className="text-sm text-foreground/70 leading-relaxed">
                                     {goal.description}
                                 </p>
                             </div>

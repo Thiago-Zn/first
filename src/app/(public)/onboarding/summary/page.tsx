@@ -23,7 +23,7 @@ export default function OnboardingSummaryPage() {
                 </div>
                 <div className="space-y-2">
                     <h3 className="text-lg font-medium">Configuração concluída</h3>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-foreground/70">
                         Você já configurou o básico. Explore o dashboard para ver mais detalhes.
                     </p>
                 </div>

@@ -16,7 +16,7 @@ export default function LoginPage() {
                             Criar conta grátis
                         </Link>
                     </p>
-                    <div className="flex items-center gap-4 justify-center text-xs">
+                    <div className="flex items-center gap-4 justify-center text-xs text-foreground/70">
                         <Link href="/home" className="hover:text-foreground transition-colors">
                             Início
                         </Link>

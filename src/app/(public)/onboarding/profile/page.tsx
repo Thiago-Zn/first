@@ -87,7 +87,7 @@ export default function OnboardingProfilePage() {
                                 autoFocus
                             />
                         </div>
-                        <p className="text-xs text-center text-muted-foreground">
+                        <p className="text-xs text-center text-foreground/70">
                             Valor líquido aproximado
                         </p>
                     </div>

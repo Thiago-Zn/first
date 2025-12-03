@@ -21,10 +21,10 @@ export default function OnboardingAccountsPage() {
             <div className="flex flex-col gap-4 py-6">
                 <div className="rounded-xl border border-dashed p-8 text-center">
                     <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-muted">
-                        <Plus className="h-6 w-6 text-muted-foreground" />
+                        <Plus className="h-6 w-6 text-foreground/50" />
                     </div>
-                    <h3 className="text-sm font-medium">Nenhuma conta conectada</h3>
-                    <p className="mt-1 text-xs text-muted-foreground">
+                    <h3 className="text-sm font-medium text-foreground">Nenhuma conta conectada</h3>
+                    <p className="mt-1 text-xs text-foreground/70">
                         Comece adicionando sua conta principal
                     </p>
                     <Button variant="outline" className="mt-4" size="sm">

@@ -21,7 +21,7 @@ export default function SignupPage() {
                                 Fazer login
                             </Link>
                         </p>
-                        <div className="flex items-center gap-4 justify-center text-xs">
+                        <div className="flex items-center gap-4 justify-center text-xs text-foreground/70">
                             <Link href="/home" className="hover:text-foreground transition-colors">
                                 Início
                             </Link>
@@ -41,7 +41,7 @@ export default function SignupPage() {
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: index * 0.1 }}
-                            className="flex items-center gap-3 rounded-xl bg-white border border-border/40 p-4 shadow-sm hover:shadow-md transition-all hover:border-primary/20"
+                            className="flex items-center gap-3 rounded-xl bg-background border border-border/40 p-4 shadow-sm hover:shadow-md transition-all hover:border-primary/20"
                         >
                             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 flex-shrink-0 ring-1 ring-primary/20">
                                 <benefit.icon className="h-5 w-5 text-primary font-bold" />

@@ -48,7 +48,7 @@ export default function AboutPage() {
                         align="center"
                         title={
                             <>
-                                Como o <span className="text-primary-foreground">Saldo Certo</span> funciona
+                                Como o <span className="text-primary">Saldo Certo</span> funciona
                             </>
                         }
                         description="Em 3 passos simples, você terá controle total das suas finanças"
@@ -122,7 +122,7 @@ export default function AboutPage() {
                         <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/20 backdrop-blur transition-transform group-hover:scale-110">
                             <Play className="h-10 w-10 text-primary fill-primary ml-1" />
                         </div>
-                        <p className="text-lg font-semibold">Assista a demonstração (2 min)</p>
+                        <p className="text-lg font-semibold text-foreground">Assista a demonstração (2 min)</p>
                     </div>
                 </motion.div>
             </section>
@@ -226,8 +226,8 @@ function StepCard({ step, title, description, visual, index }: typeof steps[0] &
                 <div className="inline-flex items-center justify-center rounded-full bg-primary/10 px-4 py-1 text-sm font-semibold text-primary">
                     Passo {step}
                 </div>
-                <h3 className="text-3xl font-bold tracking-tight">{title}</h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">{description}</p>
+                <h3 className="text-3xl font-bold tracking-tight text-foreground">{title}</h3>
+                <p className="text-lg text-foreground/75 leading-relaxed">{description}</p>
             </div>
         </div>
     )

@@ -46,7 +46,7 @@ export default function OnboardingIntroPage() {
                             </div>
                             <div className="flex-1">
                                 <h3 className="font-semibold text-foreground mb-0.5">{feature.title}</h3>
-                                <p className="text-sm text-muted-foreground leading-snug">
+                                <p className="text-sm text-foreground/70 leading-snug">
                                     {feature.description}
                                 </p>
                             </div>
